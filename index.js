@@ -1,7 +1,7 @@
 const element = (
   <div className="bg">
     <h1 className="heading">Congratulations</h1>
-    <div classname="bg1">
+    <div className="bg1">
       <img
         className="img"
         src="https://res.cloudinary.com/dvi3geadn/image/upload/v1618386274/49621842_434826397056359_7147215673154624856_n.jpg_ggtze6.jpg"

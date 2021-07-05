@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+  .img {
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+  }
+}
